@@ -1,0 +1,10 @@
+train images=20000 test images=2000 strategy=policy epochs=5
+{"event": "epoch", "epoch": 1, "train_loss": 2.0717980555998974, "train_acc": 0.25866386217948717, "val_acc": 0.3655, "val_loss": 1.6977672805786133, "lr": 0.05, "elapsed_s": 329.8}
+{"event": "step", "epoch": 2, "step": 200, "total_steps": 780, "train_loss": 1.6806578457355499, "train_acc": 0.391796875, "elapsed_s": 392.6}
+{"event": "epoch", "epoch": 2, "train_loss": 1.6291680458264473, "train_acc": 0.4055488782051282, "val_acc": 0.4195, "val_loss": 1.584738540649414, "lr": 0.04522542485937369, "elapsed_s": 645.3}
+{"event": "step", "epoch": 3, "step": 400, "total_steps": 780, "train_loss": 1.4688353836536407, "train_acc": 0.46328125, "elapsed_s": 836.2}
+{"event": "epoch", "epoch": 3, "train_loss": 1.4851443301408718, "train_acc": 0.45287459935897434, "val_acc": 0.508, "val_loss": 1.390519172668457, "lr": 0.032725424859373686, "elapsed_s": 952.6}
+{"event": "step", "epoch": 4, "step": 600, "total_steps": 780, "train_loss": 1.3376703202724456, "train_acc": 0.522265625, "elapsed_s": 1182.5}
+{"event": "epoch", "epoch": 4, "train_loss": 1.353518905547949, "train_acc": 0.5113181089743589, "val_acc": 0.5215, "val_loss": 1.339354633331299, "lr": 0.017274575140626316, "elapsed_s": 1216.4}
+{"event": "epoch", "epoch": 5, "train_loss": 1.2633980795359, "train_acc": 0.5410657051282052, "val_acc": 0.5275, "val_loss": 1.3341707611083984, "lr": 0.004774575140626317, "elapsed_s": 1430.2}
+{"checkpoint": "experiments\\checkpoints\\mobilenet_v2_block3_channel_group_policy_s0_long.pt", "best_val_acc": 0.5275, "duration_s": 1430.3}

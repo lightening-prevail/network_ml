@@ -1,0 +1,118 @@
+[1] step 20/276 loss 2.536 acc 0.132[1] step 40/276 loss 2.323 acc 0.200
+epoch 1: val_acc 0.2325 loss 2.398 (131.5s)
+[2] step 60/276 loss 2.139 acc 0.214[2] step 80/276 loss 2.099 acc 0.236
+epoch 2: val_acc 0.2555 loss 2.059 (263.2s)
+[3] step 100/276 loss 1.866 acc 0.283[3] step 120/276 loss 1.803 acc 0.318
+epoch 3: val_acc 0.3105 loss 1.810 (398.3s)
+[4] step 140/276 loss 1.793 acc 0.328[4] step 160/276 loss 1.706 acc 0.364[4] step 180/276 loss 1.720 acc 0.354
+epoch 4: val_acc 0.3705 loss 1.713 (530.9s)
+[5] step 200/276 loss 1.620 acc 0.388[5] step 220/276 loss 1.596 acc 0.403
+epoch 5: val_acc 0.4195 loss 1.599 (659.8s)
+[6] step 240/276 loss 1.472 acc 0.445[6] step 260/276 loss 1.545 acc 0.425
+epoch 6: val_acc 0.4520 loss 1.532 (774.5s)
+  eval policy_sweep: top1 0.4520 random rate=0.0 bw=
+  eval policy_sweep: top1 0.4520 random rate=0.1 bw=
+  eval policy_sweep: top1 0.4480 random rate=0.2 bw=
+  eval policy_sweep: top1 0.4260 random rate=0.3 bw=
+  eval policy_sweep: top1 0.3895 random rate=0.4 bw=
+  eval policy_sweep: top1 0.3495 random rate=0.5 bw=
+  eval policy_sweep: top1 0.4520 burst rate=0.0 bw=
+  eval policy_sweep: top1 0.4710 burst rate=0.1 bw=
+  eval policy_sweep: top1 0.4710 burst rate=0.2 bw=
+  eval policy_sweep: top1 0.4475 burst rate=0.3 bw=
+  eval policy_sweep: top1 0.4475 burst rate=0.4 bw=
+  eval policy_sweep: top1 0.3690 burst rate=0.5 bw=
+  eval policy_sweep: top1 0.4520 importance rate=0.0 bw=
+  eval policy_sweep: top1 0.4580 importance rate=0.1 bw=
+  eval policy_sweep: top1 0.4580 importance rate=0.2 bw=
+  eval policy_sweep: top1 0.4510 importance rate=0.3 bw=
+  eval policy_sweep: top1 0.4510 importance rate=0.4 bw=
+  eval policy_sweep: top1 0.4105 importance rate=0.5 bw=
+  eval policy_sweep: top1 0.4520 hybrid rate=0.0 bw=
+  eval policy_sweep: top1 0.4710 hybrid rate=0.1 bw=
+  eval policy_sweep: top1 0.4710 hybrid rate=0.2 bw=
+  eval policy_sweep: top1 0.4525 hybrid rate=0.3 bw=
+  eval policy_sweep: top1 0.4525 hybrid rate=0.4 bw=
+  eval policy_sweep: top1 0.4125 hybrid rate=0.5 bw=
+  eval bandwidth_sweep: top1 0.3075  rate= bw=0.5
+  eval bandwidth_sweep: top1 0.4105  rate= bw=1.0
+  eval bandwidth_sweep: top1 0.4520  rate= bw=2.0
+  eval bandwidth_sweep: top1 0.4520  rate= bw=5.0
+  eval bandwidth_sweep: top1 0.4520  rate= bw=10.0
+  eval bandwidth_sweep: top1 0.4520  rate= bw=100.0
+  eval split_depth: top1 0.4520  rate=0.0 bw=
+  eval split_depth: top1 0.3945  rate=0.3 bw=
+  eval split_depth: top1 0.4520  rate=0.0 bw=
+  eval split_depth: top1 0.3965  rate=0.3 bw=
+  eval split_depth: top1 0.4520  rate=0.0 bw=
+  eval split_depth: top1 0.4510  rate=0.3 bw=
+  eval split_depth: top1 0.4520  rate=0.0 bw=
+  eval split_depth: top1 0.4455  rate=0.3 bw=
+  eval split_depth: top1 0.4520  rate=0.0 bw=
+  eval split_depth: top1 0.4320  rate=0.3 bw=
+  eval edge_nodes: top1 0.4510  rate= bw=
+  eval edge_nodes: top1 0.4510  rate= bw=
+done: experiment 3 -> C:\Users\DELL\OneDrive\Documents\Projects\network-ml\experiments\checkpoints\mobilenet_v2_block3_channel_group_policy_s0.pt
+[1] step 20/276 loss 2.508 acc 0.120[1] step 40/276 loss 2.517 acc 0.168
+epoch 1: val_acc 0.1855 loss 2.480 (132.1s)
+[2] step 60/276 loss 2.099 acc 0.245[2] step 80/276 loss 1.979 acc 0.280
+epoch 2: val_acc 0.2705 loss 2.000 (263.6s)
+[3] step 100/276 loss 1.905 acc 0.298[3] step 120/276 loss 1.794 acc 0.341
+epoch 3: val_acc 0.3500 loss 1.795 (395.6s)
+[4] step 140/276 loss 1.768 acc 0.379[4] step 160/276 loss 1.670 acc 0.389[4] step 180/276 loss 1.673 acc 0.375
+epoch 4: val_acc 0.3835 loss 1.667 (482.7s)
+[5] step 200/276 loss 1.562 acc 0.413[5] step 220/276 loss 1.578 acc 0.424
+epoch 5: val_acc 0.4350 loss 1.572 (604.0s)
+[6] step 240/276 loss 1.474 acc 0.454[6] step 260/276 loss 1.511 acc 0.443
+epoch 6: val_acc 0.4370 loss 1.499 (717.4s)
+  eval policy_sweep: top1 0.4370 random rate=0.0 bw=
+  eval policy_sweep: top1 0.4425 random rate=0.1 bw=
+  eval policy_sweep: top1 0.4310 random rate=0.2 bw=
+  eval policy_sweep: top1 0.4210 random rate=0.3 bw=
+  eval policy_sweep: top1 0.3920 random rate=0.4 bw=
+  eval policy_sweep: top1 0.3570 random rate=0.5 bw=
+  eval policy_sweep: top1 0.4370 burst rate=0.0 bw=
+  eval policy_sweep: top1 0.4435 burst rate=0.1 bw=
+  eval policy_sweep: top1 0.4435 burst rate=0.2 bw=
+  eval policy_sweep: top1 0.4385 burst rate=0.3 bw=
+  eval policy_sweep: top1 0.4385 burst rate=0.4 bw=
+  eval policy_sweep: top1 0.3960 burst rate=0.5 bw=
+  eval policy_sweep: top1 0.4370 importance rate=0.0 bw=
+  eval policy_sweep: top1 0.4405 importance rate=0.1 bw=
+  eval policy_sweep: top1 0.4405 importance rate=0.2 bw=
+  eval policy_sweep: top1 0.4400 importance rate=0.3 bw=
+  eval policy_sweep: top1 0.4400 importance rate=0.4 bw=
+  eval policy_sweep: top1 0.4300 importance rate=0.5 bw=
+  eval policy_sweep: top1 0.4370 hybrid rate=0.0 bw=
+  eval policy_sweep: top1 0.4435 hybrid rate=0.1 bw=
+  eval policy_sweep: top1 0.4435 hybrid rate=0.2 bw=
+  eval policy_sweep: top1 0.4415 hybrid rate=0.3 bw=
+  eval policy_sweep: top1 0.4415 hybrid rate=0.4 bw=
+  eval policy_sweep: top1 0.4290 hybrid rate=0.5 bw=
+  eval bandwidth_sweep: top1 0.3745  rate= bw=0.5
+  eval bandwidth_sweep: top1 0.4300  rate= bw=1.0
+  eval bandwidth_sweep: top1 0.4370  rate= bw=2.0
+  eval bandwidth_sweep: top1 0.4370  rate= bw=5.0
+  eval bandwidth_sweep: top1 0.4370  rate= bw=10.0
+  eval bandwidth_sweep: top1 0.4370  rate= bw=100.0
+  eval split_depth: top1 0.4370  rate=0.0 bw=
+  eval split_depth: top1 0.3355  rate=0.3 bw=
+  eval split_depth: top1 0.4370  rate=0.0 bw=
+  eval split_depth: top1 0.3890  rate=0.3 bw=
+  eval split_depth: top1 0.4370  rate=0.0 bw=
+  eval split_depth: top1 0.4400  rate=0.3 bw=
+  eval split_depth: top1 0.4370  rate=0.0 bw=
+  eval split_depth: top1 0.4230  rate=0.3 bw=
+  eval split_depth: top1 0.4370  rate=0.0 bw=
+  eval split_depth: top1 0.4250  rate=0.3 bw=
+  eval edge_nodes: top1 0.4400  rate= bw=
+  eval edge_nodes: top1 0.4400  rate= bw=
+done: experiment 6 -> C:\Users\DELL\OneDrive\Documents\Projects\network-ml\experiments\checkpoints\mobilenet_v2_block3_channel_group_policy_s1.pt
+{
+  "experiments": [
+    3,
+    6
+  ],
+  "figures": []
+}
+EXIT=0

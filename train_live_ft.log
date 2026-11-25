@@ -1,0 +1,8 @@
+warm-started from experiments/checkpoints/mobilenet_v2_block3_channel_group_policy_s0_long.pt
+train images=50000 test images=5000 strategy=policy epochs=2 lr=0.02
+{"event": "step", "epoch": 1, "step": 200, "total_steps": 780, "train_loss": 1.2617445766925812, "train_acc": 0.5421875, "elapsed_s": 329.3}
+{"event": "epoch", "epoch": 1, "train_loss": 1.2861065950149144, "train_acc": 0.5364583333333334, "val_acc": 0.5734, "val_loss": 1.206278737449646, "lr": 0.02, "elapsed_s": 656.0}
+{"event": "step", "epoch": 2, "step": 400, "total_steps": 780, "train_loss": 1.1894447684288025, "train_acc": 0.56484375, "elapsed_s": 672.6}
+{"event": "step", "epoch": 2, "step": 600, "total_steps": 780, "train_loss": 1.167771565914154, "train_acc": 0.576953125, "elapsed_s": 962.2}
+{"event": "epoch", "epoch": 2, "train_loss": 1.1369390576313703, "train_acc": 0.592608173076923, "val_acc": 0.5854, "val_loss": 1.1559619716644287, "lr": 0.01, "elapsed_s": 1269.8}
+{"checkpoint": "experiments\\checkpoints\\mobilenet_v2_block3_channel_group_policy_s0_long50k.pt", "best_val_acc": 0.5854, "duration_s": 1269.8}
